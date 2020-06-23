@@ -1,0 +1,46 @@
+.pagina{
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caixa {
+    position: relative;
+    padding: 2.25rem;
+    width: 500px;
+    height: 600px;
+}
+
+#caixa2 {
+    position: relative;
+    padding: 2.25rem;
+    width: 500px;
+    height: 700px;
+}
+
+.title {
+    font-size: 45px;
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-block-end: 0;
+}
+
+.title2 {
+    font-size: 25px;
+    padding-bottom: 15px;
+    padding-top: 40px;
+}
+
+#botao{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.link {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}

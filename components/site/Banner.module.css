@@ -1,0 +1,12 @@
+.banner{
+    width: 100%;
+}
+
+.item {
+    width: 100%;
+    display: block;
+}
+
+.animation {
+    animation: fading 10s infinite;
+}

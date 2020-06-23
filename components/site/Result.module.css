@@ -1,0 +1,36 @@
+#content {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.titulo {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.titulo h1 {
+    font-family: 'adam';
+    font-size: 35px;
+}
+
+.icontitle {
+    width: 18px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+.ads {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 30px;
+    width: 25%;
+}

@@ -1,0 +1,198 @@
+.esquerda {
+    right: 55px;
+    position: relative;
+    width: 70%;
+    font-size: 15px;
+    font-family: 'adam';
+    font-weight: bold;
+    margin: 0 auto;
+    z-index: 100;
+    background-color: #40e0d0;
+    -webkit-transform: skew(-30deg);
+    -ms-transform: skew(-30deg);
+    transform: skew(-30deg);
+    height: 90%;
+    box-shadow: gray;
+    -webkit-box-shadow: 5px 5px 13px 3px rgba(52, 50, 50, 0.51);
+    -moz-box-shadow:    5px 5px 13px 3px rgba(52, 50, 50, 0.51);
+    box-shadow:         5px 5px 13px 3px rgba(52, 50, 50, 0.51);
+}
+
+.direita {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #248eff;
+}
+
+#iconlock {
+    width: 40px;
+}
+
+.header {
+    position: relative;
+    width: 100vw;
+    height: 200px;
+    background-color: #248eff;
+    display: flex;
+}
+
+#logoblog {
+    -webkit-transform: skew(30deg);
+    -ms-transform: skew(30deg);
+    transform: skew(30deg);
+    width: 150px;
+    position: absolute;
+    bottom: 10%;
+    left: 60px;
+}
+
+.header h1 {
+    -webkit-transform: skew(30deg);
+    -ms-transform: skew(30deg);
+    transform: skew(30deg);
+    position: absolute;
+    bottom: 40%;
+    left: 215px;
+    padding-right: 30px;
+}
+
+.direita a {
+    position: absolute;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#linkhome {
+    right: 80%;
+}
+
+.direita a:hover {
+    color: rgb(235, 235, 235);
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+#busca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 35%;
+    right: 25%;
+}
+
+#inputbusca{
+    background-color: cornflowerblue;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+#btnsearch {
+    right: 50px;
+    background-color:cornflowerblue;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:3px 10px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    border: none;
+    height: 100%;
+}
+
+#iconlupa {
+    width: 35px;
+    margin-top: 8px;
+}
+
+.btnlogin {
+    position: absolute;
+    right: 30px;
+    bottom: 35%;
+	background-color: dodgerblue;
+	border-radius:9px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:8px 10px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
+.btnlogin:hover {
+	background-color:dodgerblue;
+}
+.btnlogin:active {
+    right: 30px;
+    bottom: 34%;
+}
+
+.btnmenu {
+    z-index: 10;
+    position: absolute;
+    right: 20px;
+    bottom: 35%;
+    display: none;
+	background-color:#249cff;
+	border-radius:14px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:8px 12px;
+    text-decoration:none;
+    text-decoration:none;
+    border-width: 0;
+    outline: none;
+}
+.btnmenu:hover {
+	background-color:#4cb1ff;
+}
+
+#iconmenu {
+    width: 25px;
+}
+
+@media (max-width: 920px) {
+    .direita {
+        display: none;
+    }
+
+    .esquerda {
+        right: 23%;
+        width: 600px;
+    }
+
+    .esquerda h1{
+        left: 300px;
+    }
+
+    #logoblog {
+        left: 25%;
+    }
+
+    .btnmenu {
+        display: initial;
+    }
+}
+
+@media (max-width: 430px) {
+    .esquerda h1 {
+        font-size: 12px;
+        left: 235px;
+    }
+}
+
+@media (max-width: 320px) {
+    .esquerda h1 {
+        display: none;
+    }
+}

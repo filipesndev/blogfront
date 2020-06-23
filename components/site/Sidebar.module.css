@@ -1,0 +1,102 @@
+.sidebar {
+    position: fixed;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    z-index: 100;
+    color: white;
+    background-color: #007bff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: right 0.3s;
+}
+
+.sidebar.show {
+    right: 0;
+}
+
+#linha {
+    position: absolute;
+    top: 120px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 80%;
+}
+
+#linkhome {
+    position: absolute;
+    top: 60px;
+    right: 115px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+#iconlupa {
+    width: 35px;
+    margin-top: 8px;
+}
+
+#iconlock {
+    width: 40px;
+}
+
+.btnlogin {
+    position: absolute;
+    right: 20px;
+    bottom: 50%;
+}
+
+#busca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 90%;
+    top: 140px;
+}
+
+#inputbusca{
+    background-color: cornflowerblue;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+#btnsearch {
+    right: 6px;
+    background-color:cornflowerblue;
+	border-radius:5px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 10px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    border: none;
+    height: 100%;
+}
+
+#iconclose {
+    width: 20px;
+}
+
+.btnclose {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+	background-color:#007bff;
+	border-radius:14px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:8px 12px;
+    text-decoration:none;
+    text-decoration:none;
+    border-width: 0;
+    outline: none;
+}

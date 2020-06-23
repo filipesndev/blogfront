@@ -1,0 +1,13 @@
+#card {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    padding-block-start: 20px;
+    padding-block-end: 20px;
+    width: 340px;
+}
+
+@media (max-width: 1025px) {
+    #card {
+        width: 100%;
+    }
+}
