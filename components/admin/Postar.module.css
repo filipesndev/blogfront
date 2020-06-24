@@ -1,0 +1,46 @@
+#formpost {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#formpost h1 {
+    font-family: 'adam';
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#formpost h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.itens {
+    display: flex;
+    flex-direction: column;
+}
+
+.itens div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.itens div h2 {
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+
+.categoria input {
+    margin-left: 20px;
+}
+
+.categoria label {
+    margin-left: 5px;
+}
+
+#btnpost {
+    width: 100%;
+}
