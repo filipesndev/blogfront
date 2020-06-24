@@ -8,9 +8,9 @@ function Postbox (props) {
                 <a>
                     <div className="card">
 
-                        <div className="card-image">
+                        <div className="card-image" id={styles["image"]}>
                             <figure className="image is-4by3">
-                                <img src={props.src}/>
+                                <img id={styles["minibanner"]} src={props.src}/>
                             </figure>
                         </div>
 

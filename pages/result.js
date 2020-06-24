@@ -11,7 +11,7 @@ export default (props) => {
             <div className="container" id={styles["content"]}>
                 <div className={styles["results"]}>
                     <div className={styles["titulo"]}>
-                        <img className={styles["icontitle"]} src="./assets/icons/mobile.svg"/>
+                        <img className={styles["icontitle"]} src="./assets/icons/clip.svg"/>
                         <h1>Resultados:</h1>
                     </div>
                     <Resultbox src="../assets/img/minibanner1.png" title="Câmera do Iphone 11 impressiona!" description="Alto desempenho, fotos rapidas, foco dinamico e preciso, alta resolução aliada ao processador potente do aparelho são alguns dos pontos que fazem dele uma otima pedida para quem quer registrar seus momentos." />

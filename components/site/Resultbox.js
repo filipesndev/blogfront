@@ -4,24 +4,27 @@ import Link from 'next/link'
 export default (props) => {
     return (
         <div className="box" id={styles["box"]}>
-            <div className="media">
+            <Link href="/index">
+                <a className={styles["link"]}>
 
-                <div className="media-left">
-                    <figure className="image is-128x128">
-                        <img src={props.src} alt="Image"/>
-                    </figure>
-                </div>
+                    <div className={styles["content"]}>
 
-                <div className="media-content">
-                    <div>
-                        <h1 className={styles["titulo"]}>{props.title}</h1>
-                        <p>
-                            {props.description}
-                        </p>
+                        <div className={styles["resultimg"]}>
+                            <img className={styles["minibanner"]} src={props.src}/>
+                        </div>
+
+                        <div className={styles["text"]}>
+                            <div>
+                                <h1 className={styles["titulo"]}>{props.title}</h1>
+                                <p>
+                                    {props.description}
+                                </p>
+                            </div>
+                        </div>
+
                     </div>
-                </div>
-
-            </div>
+                </a>
+            </Link>
         </div>
     )
 }

@@ -6,6 +6,19 @@
     width: 340px;
 }
 
+#image {
+    overflow: hidden;
+}
+
+#minibanner {
+    transition: all 0.3s;
+}
+
+#minibanner:hover {
+    transform: scale(1.2);
+}
+
+
 @media (max-width: 1025px) {
     #card {
         width: 100%;

@@ -1,6 +1,5 @@
 #box {
     width: 100%;
-    padding-bottom: 0;
 }
 
 .titulo {
@@ -8,4 +7,49 @@
     font-size: 20px;
     margin-block-start: 0;
     margin-block-end: 5px;
+}
+
+.content {
+    display: flex;
+}
+
+.resultimg {
+    width: 250px;
+    overflow: hidden;
+}
+
+.text {
+    padding-left: 20px;
+}
+
+.minibanner {
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.minibanner:hover {
+    transform: scale(1.3);
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: black;
+}
+
+@media (max-width: 1025px) {
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .resultimg {
+        width: 95%;
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
 }

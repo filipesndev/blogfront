@@ -70,10 +70,13 @@
     right: 80%;
 }
 
+.direita a {
+    transition: all 0.3s;
+}
+
 .direita a:hover {
     color: rgb(235, 235, 235);
-    font-size: 25px;
-    transition: 0.3s;
+    transform: scale(1.2);
 }
 
 #busca {
