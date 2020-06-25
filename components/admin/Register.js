@@ -15,7 +15,7 @@ export default () => {
                             <input className="input" type="password"/>
                         <button className="button is-info" id={styles["botao"]} type="submit" >Registrar</button>
                     </form>
-                    <Link href="/index"><a className={styles["link"]}>Voltar para o inicio</a></Link>
+                    <Link href="/gerenciar"><a className={styles["link"]}>Voltar para o inicio</a></Link>
                 </div>
         </div>
     )
