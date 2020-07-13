@@ -19,7 +19,7 @@ export default (props) => {
             </Head>
             <div className={styles["header"]}>
                 <button onClick={toogleSidebar} className={styles["btnmenu"]}>
-                    <img id={styles["btnmenuicon"]} src="./assets/icons/menu.svg" />
+                    <img id={styles["btnmenuicon"]} src="../assets/icons/menu.svg" />
                 </button>
 
                 <Sidebar show={sidebarshow} toogleSidebar={toogleSidebar}/>

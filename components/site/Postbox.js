@@ -21,10 +21,6 @@ function Postbox (props) {
                                     <p className="subtitle is-6">{props.description}</p>
                                 </div>
                             </div>
-
-                            <div className="content">
-                                <time>1 Jan 2016</time>
-                            </div>
                         </div>
                         
                     </div>

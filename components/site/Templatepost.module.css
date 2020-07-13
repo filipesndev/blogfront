@@ -20,3 +20,9 @@
 .ads img {
     width: 95%;
 }
+
+@media (max-width: 1020px) {
+    .ads {
+        display: none;
+    }
+}

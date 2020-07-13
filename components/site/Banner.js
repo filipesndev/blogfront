@@ -8,8 +8,8 @@ function Banner (props) {
 
     const images = [
         'banner1.png',
-        'banner2.png',
-        'banner3.png'
+        'banner3.png',
+        'banner2.png'
     ]
 
     const [index, setIndex] = useState(0)
@@ -25,7 +25,7 @@ function Banner (props) {
     useEffect(() => {
         setTimeout(() => {
             changeImg()
-        }, 3000)
+        }, 2000)
     })
 
     return (

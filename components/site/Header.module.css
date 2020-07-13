@@ -88,6 +88,14 @@
     right: 25%;
 }
 
+#busca form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+}
+
 #inputbusca{
     background-color: cornflowerblue;
     border-color: transparent;

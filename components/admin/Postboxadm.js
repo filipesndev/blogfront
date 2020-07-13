@@ -1,10 +1,26 @@
 import styles from './Postboxadm.module.css'
 import Link from 'next/link'
+import { Cookies } from 'react-cookie'
+import axios from 'axios'
+import { URL_API } from '../../utils/config'
 
 export default (props) => {
+
+    async function deletePost(id) {
+        const cookie = new Cookies()
+        const token = cookie.get('token')
+        axios.defaults.headers.Authorization = 'Bearer ' + token
+        try {
+            await axios.delete(URL_API + '/admin/posts/' + id) 
+            props.load()
+        } catch (e) {
+            alert('Não foi possivel deletar o post!')
+        }
+    }
+
     return (
         <div className="box" id={styles["box"]}>
-            <Link href="/index">
+            <Link href={props.link}>
                 <a className={styles["link"]}>
 
                     <div className={styles["content"]}>
@@ -26,7 +42,14 @@ export default (props) => {
                 </a>
             </Link>
 
-            <button id={styles["btndelete"]} className="button is-danger"><img id={styles["iconlixo"]} src="./assets/icons/lixo.svg"/></button>
+            <button 
+                id={styles["btndelete"]} 
+                onClick={() => {
+                    deletePost(props.id)
+                }}
+                className="button is-danger">
+                    <img id={styles["iconlixo"]} src="./assets/icons/lixo.svg"/>
+            </button>
         </div>
     )
 }

@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default (props) => {
     return (
         <div className="box" id={styles["box"]}>
-            <Link href="/index">
+            <Link href={props.link}>
                 <a className={styles["link"]}>
 
                     <div className={styles["content"]}>
