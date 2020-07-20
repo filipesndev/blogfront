@@ -19,6 +19,7 @@
 }
 
 .direita {
+    font-family: 'calibri';
     position: relative;
     width: 100%;
     display: flex;
