@@ -14,6 +14,10 @@
     src: url('/assets/fonts/adamfont.otf') format('truetype');
 }
 
+body {
+    font-family: 'calibri';
+}
+
 html, body, div, span, applet, object, iframe,
  p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
