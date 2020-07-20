@@ -1,1 +1,1 @@
-export const URL_API = 'http://127.0.0.1:3333'
+export const URL_API = 'https://tecatlas-backend.herokuapp.com/'
