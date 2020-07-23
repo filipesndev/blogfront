@@ -30,7 +30,7 @@ export default function ListPosts(props) {
                         <Postbox 
                             key={item.id}
                             link={'/posts/' + item.id} 
-                            src={URL_API + '/posts/images/' + item.minibanner}
+                            src={item.minibanner}
                             title={item.title}
                             description={item.description}
                         />

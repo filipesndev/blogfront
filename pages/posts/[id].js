@@ -14,7 +14,7 @@ export default (props) => {
     return (
         <>
             <Header/>
-            <Banner src={URL_API + '/posts/images/' + post.banner}/>
+            <Banner src={post.banner}/>
             <div className={styles["pagina"]}>
                 <div className="container" id={styles["indexdoconteudo"]}>
 
